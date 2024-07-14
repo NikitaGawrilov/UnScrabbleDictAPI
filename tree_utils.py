@@ -4,7 +4,7 @@ from loguru import logger
 from datetime import datetime as dt
 
 
-def get_trees() -> (Node, Node):
+def load_trees() -> (Node, Node):
     logger.info("small_tree is loading...")
     start = dt.now()
 
